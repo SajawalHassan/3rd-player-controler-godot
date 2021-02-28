@@ -22,7 +22,10 @@ func _ready() -> void:
 	
 func _process(delta) -> void:
 	if Input.is_action_just_pressed("ui_cancel"):
-		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+		get_tree().change_scene("res://Scenes/World.tscn")
+	
+	if Input.is_action_just_pressed("exit"):
+		get_tree().quit()
 
 func _input(event) -> void:
 	if event is InputEventMouseMotion:

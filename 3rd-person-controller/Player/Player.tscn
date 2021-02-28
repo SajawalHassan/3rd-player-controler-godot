@@ -8,6 +8,7 @@
 
 [node name="Player" type="KinematicBody"]
 collision_layer = 2
+collision_mask = 5
 script = ExtResource( 1 )
 jump_power = 30.0
 
