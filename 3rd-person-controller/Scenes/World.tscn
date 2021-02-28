@@ -48,7 +48,7 @@ material = SubResource( 1 )
 transform = Transform( -0.537668, 0, 0.843157, 0.688523, 0.577202, 0.43906, -0.486672, 0.816601, -0.310343, -0.450527, 11.6146, -1.05754 )
 
 [node name="CSGBox4" type="CSGBox" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.5205, 4.80954, 6.02621 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 15.5205, 7.54695, 6.02621 )
 use_collision = true
 width = 12.617
 height = 0.907451
@@ -56,6 +56,61 @@ depth = 13.2246
 material = SubResource( 1 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="CSGBox4"]
+transform = Transform( -0.537668, 0, 0.843157, 0.688523, 0.577202, 0.43906, -0.486672, 0.816601, -0.310343, -0.450527, 11.6146, -1.05754 )
+
+[node name="CSGBox6" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 31.6061, 10.1958, 3.47067 )
+use_collision = true
+width = 12.617
+height = 0.907451
+depth = 13.2246
+material = SubResource( 1 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="CSGBox6"]
+transform = Transform( -0.537668, 0, 0.843157, 0.688523, 0.577202, 0.43906, -0.486672, 0.816601, -0.310343, -0.450527, 11.6146, -1.05754 )
+
+[node name="CSGBox7" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 47.9484, 13.7691, 3.47067 )
+use_collision = true
+width = 12.617
+height = 0.907451
+depth = 13.2246
+material = SubResource( 1 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="CSGBox7"]
+transform = Transform( -0.537668, 0, 0.843157, 0.688523, 0.577202, 0.43906, -0.486672, 0.816601, -0.310343, -0.450527, 11.6146, -1.05754 )
+
+[node name="CSGBox8" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 47.9484, 7.74088, -28.4837 )
+use_collision = true
+width = 12.617
+height = 0.907451
+depth = 13.2246
+material = SubResource( 1 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="CSGBox8"]
+transform = Transform( -0.537668, 0, 0.843157, 0.688523, 0.577202, 0.43906, -0.486672, 0.816601, -0.310343, -0.450527, 11.6146, -1.05754 )
+
+[node name="CSGBox9" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 63.633, 10.5788, -28.4837 )
+use_collision = true
+width = 12.617
+height = 0.907451
+depth = 13.2246
+material = SubResource( 1 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="CSGBox9"]
+transform = Transform( -0.537668, 0, 0.843157, 0.688523, 0.577202, 0.43906, -0.486672, 0.816601, -0.310343, -0.450527, 11.6146, -1.05754 )
+
+[node name="CSGBox10" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 63.633, 9.58986, -56.1253 )
+use_collision = true
+width = 12.617
+height = 0.907451
+depth = 13.2246
+material = SubResource( 1 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="CSGBox10"]
 transform = Transform( -0.537668, 0, 0.843157, 0.688523, 0.577202, 0.43906, -0.486672, 0.816601, -0.310343, -0.450527, 11.6146, -1.05754 )
 
 [node name="CSGBox5" type="CSGBox" parent="."]

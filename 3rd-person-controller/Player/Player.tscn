@@ -9,6 +9,7 @@
 [node name="Player" type="KinematicBody"]
 collision_layer = 2
 script = ExtResource( 1 )
+jump_power = 30.0
 
 [node name="CameraPivot" type="Spatial" parent="."]
 
